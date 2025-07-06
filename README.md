@@ -1,5 +1,5 @@
 # Small-n-Accurate-CIFAR10-model
-620K parameters achievening 85% validation accuracy in CIFAR10 dataset
+model with ONLY 620K parameters reaching 85% validation accuracy in CIFAR10 dataset
 
 # Efficiency Analysis
 - ~85% accuracy with <1% of VGG-16's parameters and <6% of ResNet-18's parameters
