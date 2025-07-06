@@ -11,6 +11,6 @@ model with ONLY 620K parameters reaching 85% validation accuracy in CIFAR10 data
 - Data augmentation (flipping, random cropping, color jittering, standard normalization)
 
 # Secondary optimization (things that didn't contribute a lot)
-- BatchNorm
-- small dropout after pooling
-- early stop based on validation loss
+- Resnet-style "BatchNorm layers before activation"
+- small dropouts after pooling
+- early exit from training based on validation loss
