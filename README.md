@@ -2,7 +2,7 @@
 model with ONLY 620K parameters reaching 85% validation accuracy in CIFAR10 dataset
 
 # Efficiency Analysis
-- ~85% accuracy with <1% of VGG-16's parameters and <6% of ResNet-18's parameters
+- ~85% accuracy with only <1% of VGG-16's parameters and <6% of ResNet-18's parameters
 - Great generalization. Only 0.6% difference between train/test accuracy (85.1% vs 84.5%).
 
 # Primary Optimization
